@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "1204feac-0e80-406b-83cc-845c4e691769",
+		"name": "TestsLaravel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32684564"
+	},
+	"item": [
+		{
+			"name": "Get Users",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Streams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/get-live-streams",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"get-live-streams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Top of the Tops",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/get-Top-Of-The-Tops",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"get-Top-Of-The-Tops"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
