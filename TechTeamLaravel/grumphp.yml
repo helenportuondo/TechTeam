@@ -17,6 +17,6 @@ grumphp:
         phpcs:
             standard: PSR12
             whitelist_patterns:
-              - /TechTeamLaravel\/App\/Http\/Controllers\/(.*)/
+              - /^App\/Http\/Controllers\/(.*)/
 
 
