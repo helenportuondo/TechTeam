@@ -14,9 +14,5 @@ grumphp:
               - '/^\d+-[a-z0-9-]+$/'
               - 'main'
               - 'master'
-        phpcs:
-            standard: PSR12
-            whitelist_patterns:
-              - /^App\/Http\/Controllers\/(.*)/
 
 
