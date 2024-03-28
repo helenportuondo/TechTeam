@@ -1,0 +1,16 @@
+grumphp:
+    tasks:
+        git_commit_message:
+            allow_empty_message: false
+            enforce_capitalized_subject: false
+            skip_on_merge_commit: true
+            matchers:
+                Must follow [issueNumber] - Description: '/^\[\d+\] - .+$/'
+            case_insensitive: true
+            multiline: true
+            additional_modifiers: ''
+        git_branch_name:
+            whitelist:
+              - '/^\d+-[a-z0-9-]+$/'
+              - 'main'
+              - 'master'
