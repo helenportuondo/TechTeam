@@ -1,9 +1,5 @@
 grumphp:
     tasks:
-        phpcs:
-            standard: [PSR12]
-        phpmd:
-            ruleset: ['cleancode', 'codesize', 'naming']
         git_commit_message:
             allow_empty_message: false
             enforce_capitalized_subject: false
@@ -19,5 +15,12 @@ grumphp:
               - 'main'
               - 'master'
         
-
+        phpcs:
+            standard: [PSR12]
+            paths:
+                - app/Http/Controllers
+        phpmd:
+            ruleset: ['cleancode', 'codesize', 'naming']
+            paths:
+                - app/Http/Controllers
 
